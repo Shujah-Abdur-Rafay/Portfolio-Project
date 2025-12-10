@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+  }
+
+  .dark {
+    --background: 0 0% 10%; /* #1A1A1A */
+    --foreground: 0 0% 96%; /* #F5F5F5 */
+    --card: 0 0% 20%; /* #333333 */
+    --card-foreground: 0 0% 96%; /* #F5F5F5 */
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 96%;
+    --primary: 345 100% 25%; /* #800020 */
+    --primary-foreground: 0 0% 96%;
+    --secondary: 0 0% 20%; /* #333333 */
+    --secondary-foreground: 0 0% 96%;
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 70%; /* Lighter Gray */
+    --accent: 43 74% 56%; /* #D4AF37 */
+    --accent-foreground: 0 0% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 43 74% 56%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  ::selection {
+    background: hsl(var(--accent));
+    color: hsl(var(--accent-foreground));
+  }
+  ::-moz-selection {
+    background: hsl(var(--accent));
+    color: hsl(var(--accent-foreground));
+  }
+}
+
+@layer components {
+  .nav-link-hover {
+    @apply relative transition-colors duration-300;
+  }
+  .nav-link-hover::after {
+    @apply content-[''] absolute left-0 -bottom-1 h-0.5 w-full scale-x-0 bg-primary transition-transform duration-300 ease-out;
+  }
+  .nav-link-hover:hover::after,
+  .nav-link-hover:focus::after {
+    @apply scale-x-100;
+  }
+  
+  .reveal-text {
+    @apply relative block overflow-hidden;
+  }
+  .reveal-text > span {
+    @apply block transition-transform duration-500 ease-in-out;
+  }
+  .reveal-text:hover > span {
+    @apply -translate-y-full;
+  }
+  .reveal-text::after {
+    @apply content-[attr(data-text)] absolute inset-0 block transition-transform duration-500 ease-in-out;
+    transform: translateY(100%);
+  }
+  .reveal-text:hover::after {
+    transform: translateY(0);
+  }
+
+  .spotlight-text {
+    @apply text-transparent bg-clip-text;
+    background-image: radial-gradient(circle at var(--x, 0) var(--y, 0), hsl(var(--foreground)) 0%, hsl(var(--foreground) / 0.5) 2%, transparent 8%);
+  }
+}

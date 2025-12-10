@@ -1,0 +1,82 @@
+{
+  "placeholderImages": [
+    {
+      "id": "home-banner",
+      "description": "A beautiful landscape image",
+      "imageUrl": "https://images.unsplash.com/photo-1610552050890-fe99536c2615?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsYW5kc2NhcGUlMjBuYXR1cmV8ZW58MHx8fHwxNzYyNzQ3ODYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "landscape nature"
+    },
+    {
+      "id": "service-icon-1",
+      "description": "Icon for Digital Strategy",
+      "imageUrl": "https://images.unsplash.com/photo-1758873269811-4e62e346b4b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdHJhdGVneSUyMGNoYXJ0fGVufDB8fHx8MTc2MjgwMTQ1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "strategy chart"
+    },
+    {
+      "id": "service-icon-2",
+      "description": "Icon for Social Media",
+      "imageUrl": "https://images.unsplash.com/photo-1573152143286-0c422b4d2175?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3NjI3OTg4ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social media"
+    },
+    {
+      "id": "service-icon-3",
+      "description": "Icon for Content",
+      "imageUrl": "https://images.unsplash.com/photo-1581464647113-0196a7dc232b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29udGVudCUyMHdyaXRpbmd8ZW58MHx8fHwxNzYyNzM3ODA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "content writing"
+    },
+    {
+      "id": "service-icon-4",
+      "description": "Icon for Copywriting",
+      "imageUrl": "https://images.unsplash.com/photo-1710010966055-da0bcafdbd8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb3B5d3JpdGluZyUyMHBlbnxlbnwwfHx8fDE3NjI4MDE0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "copywriting pen"
+    },
+    {
+      "id": "project-dew-iq",
+      "description": "Project image for DEW IQ",
+      "imageUrl": "https://images.unsplash.com/photo-1612817288484-6f916006741a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxza2luY2FyZSUyMHByb2R1Y3R8ZW58MHx8fHwxNzYyNzc4NDA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "skincare product"
+    },
+    {
+      "id": "project-edenrowe",
+      "description": "Project image for Edenrowe",
+      "imageUrl": "https://images.unsplash.com/photo-1565206776249-a01813727c94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwZGVzaWdufGVufDB8fHx8MTc2MjcxOTE4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion design"
+    },
+    {
+      "id": "project-saul-good",
+      "description": "Project image for Saul Good Gifts",
+      "imageUrl": "https://images.unsplash.com/photo-1617118601021-4992c028fe5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnaWZ0JTIwYm94fGVufDB8fHx8MTc2MjcxMjY0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gift box"
+    },
+    {
+      "id": "project-courtquarters",
+      "description": "Project image for Courtquarters",
+      "imageUrl": "https://images.unsplash.com/photo-1546349851-64285be8e9fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzYyNzA0OTg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern architecture"
+    },
+    {
+      "id": "project-terra-hale",
+      "description": "Project image for Terra Hale",
+      "imageUrl": "https://images.unsplash.com/photo-1723117418183-2422c62a5a75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zml0bmVzcyUyMHN0dWRpb3xlbnwwfHx8fDE3NjI4MDE0NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fitness studio"
+    },
+    {
+      "id": "og-image",
+      "description": "OpenGraph image for MIGUEL LÓPEZ",
+      "imageUrl": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkaWdpdGFsJTIwbWFya2V0aW5nfGVufDB8fHx8MTc2Mjc3NzM3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital marketing"
+    },
+    {
+      "id": "about-miguel",
+      "description": "Miguel López looking at the camera.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pruebasmangel.firebasestorage.app/o/ed56edd7-7dc1-4959-b8b1-608163a9d107.jpg?alt=media&token=489f7bdb-9712-4d52-9221-9d11b4f66ad6",
+      "imageHint": "portrait professional man"
+    },
+    {
+      "id": "timeline-logo",
+      "description": "Company logo for timeline",
+      "imageUrl": "https://images.unsplash.com/photo-1567446537708-ac4aa75c9c28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsb2dvfGVufDB8fHx8MTc2Mjc5MjYwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo"
+    }
+  ]
+}
